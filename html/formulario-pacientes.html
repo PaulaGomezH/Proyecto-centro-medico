@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Pacientes</title>
+    <link rel="icon" type="img/x-icon" href="/proyecto-hospital/img/icon.png" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>HOSPITAL INFANTIL CORAZON A CORAZON</h1>
+    </header>
+    <main>
+        <form id="registro-pacientes-form">
+            <h2>REGISTRO DE PACIENTES</h2>
+            <label for="nombre">Nombre :<span> *</span></label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="paciente">Apellido:<span> *</span></label>
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="cedula">Numero de Cedula :<span> *</span></label>
+            <input type="text" id="cedula" name="cedula" required>
+            <label for="edad">Edad :<span> *</span></label>
+            <input type="number" id="edad" name="edad" required>
+            <label for="telefono">Telefono :<span> *</span></label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <label for="especialidad">Especialidad requerida:<span> *</span></label>
+            <select id="especialidad" name="especialidad">
+                <option value="">------------------------  Seleccione la especialidad  ---------------------</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Medicina interna">Medicina interna</option>
+                <option value="Cardiología">Cardiología</option>
+                <option value="Rehabilitacion Física">Rehabilitacion Física</option>
+                <option value="Radiología">Radiología</option>
+                <option value="Psicologia">Psicologia</option>
+                <option value="Odontología ">Odontología </option>
+                <option value="Dermatología">Dermatología</option>
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="boton-container">
+            <input type="button" id="botonVolver" value="Volver">
+        </div>
+    </main>
+    <script src="../js/volver.js"></script>
+    <script src="../js/formulario-pacientes.js"></script>
+</body>
+
+</html>

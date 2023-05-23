@@ -1,2 +1,2 @@
-# proyecto-veterinaria
-Proyecto veterinaria
+# proyecto-centroMedico
+Proyecto centroMedico
